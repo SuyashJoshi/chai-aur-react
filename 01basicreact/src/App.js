@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
 
+import Chai from './Chai.jsx';
+
 function App() {
   return (
     // <div className="App">
@@ -19,7 +21,11 @@ function App() {
     //     </a>
     //   </header>
     // </div>
-    <h1>Chai aur React! | Suyash Joshi</h1>
+    <>
+      <Chai />
+      <h1>Chai aur React! | Suyash Joshi</h1>
+    </>
+    
   );
 }
 

@@ -1,3 +1,5 @@
+In this commit "https://github.com/SuyashJoshi/chai-aur-react/tree/859a0f6e9d9bfe0193ef3e2f490734555b4f3df4", I have done below activities:
+
 Create basic React Project using NPX (Project name: 01basicreact)
 -> npx create-react-app 01basicreact
 
@@ -7,7 +9,7 @@ In the above command:
 3. 01basicreact -> It is the project name.
 
 Run the above project
--> One we are in the folder of the projet where we are having the package.json we will run
+-> One we are in the folder of the project where we are having the package.json we will run
 -> npm run start
 
 Create a vite project "01vitereact"
@@ -16,8 +18,8 @@ Create a vite project "01vitereact"
 Note: we will have to run this command as it is and once we run this command, Vite bundler will ask us to:- 
 1. Ok To proceed? (y) - Enter y.
 1. Provide the project name. - I am giving Project name as "01vitereact"
-2. Select the framework from "Valilla", "Vue", "React", "Preact", "Lit", "Svelte", "Solid", "Qwik", "Others". (We will select "React")
-3. Once we select React, we will get options to select a varient from the list showing "TypeScript", "Typescript + SWC", "Javascript", "Javascriot + SWC". (We will select Javascript)
+2. Select the framework from "Vanilla", "Vue", "React", "Preact", "Lit", "Svelte", "Solid", "Qwik", "Others". (We will select "React")
+3. Once we select React, we will get options to select a variant from the list showing "TypeScript", "Typescript + SWC", "Javascript", "Javascript + SWC". (We will select Javascript)
 
 Command to Run the above Vite project
 -> Once you are in the project folder run the below command.
