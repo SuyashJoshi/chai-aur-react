@@ -8,32 +8,16 @@ import Chai from './chai.jsx';
 function App() {
   // const [count, setCount] = useState(0)
 
+  const username = "Suyash Joshi";
+
   return (
-    // <>
-    //   <div>
-    //     <a href="https://vite.dev" target="_blank">
-    //       <img src={viteLogo} className="logo" alt="Vite logo" />
-    //     </a>
-    //     <a href="https://react.dev" target="_blank">
-    //       <img src={reactLogo} className="logo react" alt="React logo" />
-    //     </a>
-    //   </div>
-    //   <h1>Vite + React</h1>
-    //   <div className="card">
-    //     <button onClick={() => setCount((count) => count + 1)}>
-    //       count is {count}
-    //     </button>
-    //     <p>
-    //       Edit <code>src/App.jsx</code> and save to test HMR
-    //     </p>
-    //   </div>
-    //   <p className="read-the-docs">
-    //     Click on the Vite and React logos to learn more
-    //   </p>
-    // </>
+    
     <>
       <Chai />
-      <h1>Chai aur React with vite! | Suyash Joshi</h1>
+      {/* We can add the username variable value inside JSX using {} */}
+      {/* in the belo code {username} is known as expression and here it is evaluated expression. */}
+      {/* here we are calling it as evaluated expression because the final outpput of the javascript will go at this place. */}
+      <h1>Chai aur React with vite! | {username}</h1>
     </>
     
   )
