@@ -1,0 +1,24 @@
+Create basic React Project using NPX (Project name: 01basicreact)
+-> npx create-react-app 01basicreact
+
+In the above command:
+1. npx -> It is an executer (Node Package Executer)
+2. create-react-app -> It is a utility (a software) to create react app.
+3. 01basicreact -> It is the project name.
+
+Run the above project
+-> One we are in the folder of the projet where we are having the package.json we will run
+-> npm run start
+
+Create a vite project "01vitereact"
+-> npm create vite@latest
+
+Note: we will have to run this command as it is and once we run this command, Vite bundler will ask us to:- 
+1. Ok To proceed? (y) - Enter y.
+1. Provide the project name. - I am giving Project name as "01vitereact"
+2. Select the framework from "Valilla", "Vue", "React", "Preact", "Lit", "Svelte", "Solid", "Qwik", "Others". (We will select "React")
+3. Once we select React, we will get options to select a varient from the list showing "TypeScript", "Typescript + SWC", "Javascript", "Javascriot + SWC". (We will select Javascript)
+
+Command to Run the above Vite project
+-> Once you are in the project folder run the below command.
+-> npm run dev
