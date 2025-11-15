@@ -1,3 +1,6 @@
+Commit: https://github.com/SuyashJoshi/chai-aur-react/commit/64d32a10105dcd81d17ddee25d8c825e1c6786d7
+
+
 In the react app, we have a public folder and the important file in this is Index.html. (This is the main HTML page that will be loaded to the browser. As this is a single page, we call the apps created by react as SPA (Single page application).
 
 
