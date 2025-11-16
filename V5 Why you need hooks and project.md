@@ -1,4 +1,4 @@
-
+Commit: https://github.com/SuyashJoshi/chai-aur-react/commit/e8a6bdadb565acbeae2821f8fbdb91f0782f5ff2
 
 In this session, we will learn why the hooks are needed and why we are calling react as react. Hooks are used for updating the data on the page
 
@@ -9,7 +9,8 @@ We have used the (useState and useEffect) hook and it is helping us to do the re
 
 We have also learned that we are calling React as react because it help the webpage to react to the changes done to one variable and reflect that change at all the places in the web page without using document.getelementbyid.
 
-We have also learned how we can use useEffect() hook to retrieve the updated value of the counter and how to put some logic in it.
+Note: While doing the assignment:
+We have also learned how we can use useEffect hook to retrieve the updated value of the counter and how to put some logic in it.
 
 
 
