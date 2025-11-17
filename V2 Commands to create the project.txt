@@ -12,6 +12,8 @@ Run the above project
 -> One we are in the folder of the project where we are having the package.json we will run
 -> npm run start
 
+----------------------------------------------------------------------------------
+
 Create a vite project "01vitereact"
 -> npm create vite@latest
 
@@ -24,3 +26,25 @@ Note: we will have to run this command as it is and once we run this command, Vi
 Command to Run the above Vite project
 -> Once you are in the project folder run the below command.
 -> npm run dev
+
+-----------------------------------------------------------------------------------
+
+command to install Tailwind CSS ysing V 4.0
+
+--Create your project
+npm create vite@latest my-project
+cd my-project
+
+--Install Tailwind CSS
+npm install tailwindcss @tailwindcss/vite
+
+--Configure the Vite plugin - To do it, please update the below code in "vite.config.ts"
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite'
+export default defineConfig({
+  plugins: [
+    tailwindcss(),
+  ],
+})
+
+--Import Tailwind CSS - To do it, please import the tailwindcss in index.css
