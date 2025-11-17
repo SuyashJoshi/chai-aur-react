@@ -1,3 +1,5 @@
+// Commit: https://github.com/SuyashJoshi/chai-aur-react/commit/8356f1ab4ad326b494585c4670336f517407e5ca 
+
 // In this session we are going to learn about Virtual DOM, Fiber and Reconcilation in React.js
 // Virtual DOM is a concept where a virtual representation of the UI is kept in memory and synced with the real DOM by a library such as ReactDOM. This process is called reconciliation.
 // Now the Virtual DOM allows React to do efficient updates to the real DOM by minimizing the number of changes that need to be made.
