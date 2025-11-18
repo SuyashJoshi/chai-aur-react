@@ -1,0 +1,13 @@
+  
+ //In the below code the counters value will not increate by 5 because the state updates are batched for performance reasons. So, when we call setCounter multiple times in a sinlgle event handler, React batches those updates together and only applies the last update.
+  setCounter(counter + 1);
+  setCounter(counter + 1);
+  setCounter(counter + 1);
+  setCounter(counter + 1);
+
+  // To solve the above issue, we can use the functional update form of the setCounter function. This form takes a function as an argument, which receives the previous state value and return the new state value.
+  // Example:
+  setCounter((prevCounter) => prevCounter + 1)
+  setCounter((prCounter) => prCounter + 1) // We can give any name to the previous state variable.
+  setCounter((previousCounter) => previousCounter + 1)
+  setCounter((oldCounter) => oldCounter + 1)
