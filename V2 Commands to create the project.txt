@@ -47,4 +47,4 @@ export default defineConfig({
   ],
 })
 
---Import Tailwind CSS - To do it, please import the tailwindcss in index.css
+--Import Tailwind CSS - To do it, please import the tailwindcss in index.css by writing "@import "tailwindcss";"

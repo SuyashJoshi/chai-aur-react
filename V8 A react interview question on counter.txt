@@ -1,4 +1,5 @@
-  
+ Commit: https://github.com/SuyashJoshi/chai-aur-react/commit/42c5d8202149679ae057d8b2bb71d803f9a735de
+
  //In the below code the counters value will not increate by 5 because the state updates are batched for performance reasons. So, when we call setCounter multiple times in a sinlgle event handler, React batches those updates together and only applies the last update.
   setCounter(counter + 1);
   setCounter(counter + 1);
